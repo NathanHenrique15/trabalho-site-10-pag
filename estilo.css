@@ -1,0 +1,28 @@
+.nerdfodido
+{
+    width: 5%;
+    height: 5%;
+    border: 1px solid blue;
+}
+.anime
+{
+    width: 80%;
+}
+.animein
+{
+    width: 20%;
+    height: 20%;
+}
+.texto
+{
+    width: 20%;
+    height: 20%;
+}
+.figure{
+    border: 10px solid black;
+    display: flex;
+}
+.fav{
+    width: 20%;
+    height: 20%;
+}
