@@ -1,0 +1,68 @@
+.nerdfodido
+{
+    width: 5%;
+    height: 100%;
+    border-radius: 1px;
+}
+.anime
+{
+    width: 165px;
+    height: 265px;
+    text-align: center;
+    border-radius: 10px;
+}
+.animein
+{
+    width: 20%;
+    height: 20%;
+}
+.texto1
+{
+    width: 30%;
+    height: 30%;
+    display: flex;
+}
+.bordatxt
+{
+    border: 5px solid rgb(118, 171, 174);
+    border-radius: 10px;
+    background-color:rgb(118, 171, 174) ;
+}
+.anime:hover{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.507);
+    width: 175px;
+    height: 275px;
+}
+.lado
+{
+    display:flex;
+}
+.animetxt
+{
+    text-align: center;
+}
+.titulo
+{
+    display: flex;
+    background-color: rgb(240, 236, 229);
+    border-radius: 10px;
+   
+}
+.fundo
+{
+    background-color: rgb(34, 40, 49);
+}
+.fundoanimebaixo
+{
+    background-color: rgb(118, 171, 174);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 1230px;
+}
+.fundoanime
+{
+    background-color: rgb(118, 171, 174);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 1230px;
+}
