@@ -1,68 +1,93 @@
-.nerdfodido
+.titulo 
 {
-    width: 5%;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 54, 63);
+    color: white;
+    border-radius: 100px;
+    border: 10px double rgb(27, 34, 49);
+}
+.nerdfodido 
+{
+    width: 10%;
+    height: auto;
+    max-height: 100px;
     border-radius: 1px;
+}
+.subtitulo 
+{
+    text-align: center;
+    margin-top: 1px;
+}
+.container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.lado 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
 }
 .anime
 {
-    width: 165px;
+    width: 100%;
+    max-width: 165px;
     height: 265px;
+    max-height: 265px;
     text-align: center;
     border-radius: 10px;
 }
-.animein
+.animetxt 
 {
-    width: 20%;
-    height: 20%;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
 }
-.texto1
+.anime:hover 
 {
-    width: 30%;
-    height: 30%;
-    display: flex;
-}
-.bordatxt
-{
-    border: 5px solid rgb(118, 171, 174);
-    border-radius: 10px;
-    background-color:rgb(118, 171, 174) ;
-}
-.anime:hover{
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.507);
     width: 175px;
-    height: 275px;
+    max-width: 100%;
+    height: 275;
+    max-height: 275px;
 }
-.lado
-{
-    display:flex;
-}
-.animetxt
-{
-    text-align: center;
-}
-.titulo
-{
-    display: flex;
-    background-color: rgb(240, 236, 229);
-    border-radius: 10px;
-   
-}
-.fundo
+.fundo 
 {
     background-color: rgb(34, 40, 49);
 }
-.fundoanimebaixo
-{
-    background-color: rgb(118, 171, 174);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 1230px;
-}
 .fundoanime
 {
-    background-color: rgb(118, 171, 174);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 1230px;
+    background-color: rgb(49, 54, 63);
+    border-radius: 10px;
+    border: 10px double  rgb(27, 34, 49);
 }
+.animein
+{
+    width: 15%;
+    height: 10%;
+    border-radius: 10px;
+}
+.logo
+{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.541);
+   
+}
+.logoslime
+{
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+   
+}
+
