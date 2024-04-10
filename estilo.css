@@ -71,7 +71,10 @@
 {
     width: 15%;
     height: 10%;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: inline-block;
 }
 .logo
 {
@@ -79,8 +82,6 @@
     height: auto;
     display: block;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.541);
-   
 }
 .logoslime
 {
@@ -90,4 +91,37 @@
     margin: 0 auto;
    
 }
-
+.botao
+{
+    width: 40px;
+    height: auto;
+    border-radius: 20;
+}
+.botao:hover
+{
+    width: 40px;
+    height: auto; 
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+}
+.video
+{
+    border-radius: 20px;
+    display: inline-block;
+}
+.txtautor
+{
+    border-radius: 20px;
+    background-color: rgb(49, 54, 63);
+    border: 10px double rgb(27, 34, 49);
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(215, 225, 252);
+    text-align: center;
+    padding: 5px;
+}
+.divisor
+{
+    border-top: 10px double rgb(27, 34, 49);
+    border-bottom: 10px double rgb(27, 34, 49);
+}
