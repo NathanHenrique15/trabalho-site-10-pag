@@ -69,12 +69,13 @@
 }
 .animein
 {
-    width: 15%;
-    height: 10%;
+    width: 16%;
+    height: 14%;
     border-radius: 20px;
-    margin-left: 80px;
+    margin-left: 130px;
     margin-right: 80px;
     display: inline-block;
+    margin-bottom: 5px;
 }
 .logo
 {
@@ -108,6 +109,7 @@
 {
     border-radius: 20px;
     display: inline-block;
+    margin-bottom: 20px;
 }
 .txtautor
 {
@@ -115,9 +117,9 @@
     background-color: rgb(49, 54, 63);
     border: 10px double rgb(27, 34, 49);
     display: inline-block;
-    font-size: 25px;
+    font-size: 23px;
     color: rgb(215, 225, 252);
-    text-align: center;
+    text-align: left;
     padding: 5px;
 }
 .divisor
